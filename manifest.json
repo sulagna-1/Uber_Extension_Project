@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Uber QR Generator",
+  "version": "1.0",
+  "description": "Generates a QR code for the Uber ride link.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "permissions": [],
+  "icons": {
+    "16": "icon.png"
+  },
+  "web_accessible_resources" : [
+  {
+    "resources": ["qr.html", "qrcode.min.js"],
+    "matches": ["<all_urls>"]
+  }
+]
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Uber Ride Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- QRCode.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
+  <!-- Google Maps Places API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Uber Ride Scheduler</h2>
+
+    <input type="text" id="pickup" placeholder="Pickup location" />
+    <input type="text" id="dropoff" placeholder="Dropoff location" />
+
+    <label for="scheduleDate">Choose Date:</label>
+    <input type="date" id="scheduleDate" />
+    <label for="scheduleTime">Choose Time:</label>
+    <input type="time" id="scheduleTime" />
+
+    <button id="requestRideNow">🚕 Request Ride Now</button>
+    <button id="scheduleRide">📅 Schedule Ride</button>
+
+    <div id="priceEstimate" class="hidden"></div>
+    <div id="timeEstimate" class="hidden"></div>
+
+    <div id="mapView" class="hidden">
+      <a id="mapLink" href="#" target="_blank">🔍 View in Google Maps</a>
+    </div>
+
+    <!-- QR Section -->
+    <img src="QR.jpg" alt="Uber QR" width="200" height="200" />
+      <p>📱 Scan to open Uber App:</p>
+      <div id="qrCode"></div>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <span>Dark Mode</span>
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider round"></span>
+    </label>
+  </div>
+  <br>
+  <script src="popup.js"></script>
+</body>
+</html>

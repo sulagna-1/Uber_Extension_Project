@@ -15,14 +15,6 @@ A Chrome extension that enhances your Uber experience by allowing you to schedul
 ---
 
 ## 📂 Project Structure  
-uber-chrome-extension/
-│
-├── manifest.json          # Extension configuration and permissions
-├── popup.html            # Popup interface HTML
-├── popup.js              # Popup functionality and logic
-├── style.css             # Styling for the popup interface
-├── icon.png              # Extension icon
-├── jquery-3.7.1.min.js   # jQuery library
-├── qrcode.min.js         # QR code generation library
-└── README.md             # Project documentation (this file)
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/857edb80-8502-48a1-a180-a6c8e0f3314e" />
+
 

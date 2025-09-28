@@ -4,6 +4,7 @@ A Chrome extension that enhances your Uber experience by allowing you to schedul
 
 ---
 
+
 ## ✨ Features  
 
 - 🔔 **Ride Scheduling** – Schedule future rides directly from your browser.  
@@ -19,12 +20,14 @@ A Chrome extension that enhances your Uber experience by allowing you to schedul
 
 ---
 
+
 ## 🛠️ Tech Stack 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-Basic-yellow)  ![HTML5](https://img.shields.io/badge/HTML5-orange)  ![CSS3](https://img.shields.io/badge/CSS3-blue)  ![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-API-green)  ![Google Maps](https://img.shields.io/badge/Google_Maps_API-red)  ![Google Places](https://img.shields.io/badge/Google_Places_API-lightgrey)  ![Google Geocoding](https://img.shields.io/badge/Google_Geocoding_API-brightgreen)  ![Google Directions](https://img.shields.io/badge/Google_Directions_API-blue) 
 ![Google Distance Matrix](https://img.shields.io/badge/Google_Distance_Matrix_API-blueviolet)  ![Google Routes](https://img.shields.io/badge/Google_Routes_API-darkred)  
 
 ---
+
 
 ## Future Enhancements 🚀
 
